@@ -13,24 +13,19 @@ Enter your weight in pounds 170
 weight
 print(weight)
 170
-___________________________________________________
 
-name = input("Enter your name: ")
-​
+name = input("Enter your name: ")​
 weight = int(input ("Enter your weight in pounds: "))
-​
 height = int(input ("Enter your height in inches: "))
-​
-BMI = (weight * 703) / (height * height)
-​
-print(BMI)
-______________________________________________________
+​BMI = (weight * 703) / (height * height)
+​print(BMI)
 
 Enter your name: Angie
 Enter your weight in pounds: 170
 Enter your height in inches: 62
+
 31.090010405827265
-_____________________________________________________
+
 
 # Chart for propper evaluation
 
@@ -40,7 +35,7 @@ _____________________________________________________
 # 30 - 34.9 -> obese - high
 # 35 - 39.9 -> severly obese - very high
 # 40 and over -> morbidly obese - extremly high
-_____________________________________________________
+
 
 # Final Assessment Based On Chart
 
@@ -60,20 +55,15 @@ if BMI >0:
     else:
         print("Enter valid inputs")
 
-
 Angie, you are obese.
-____________________________________________________
+
 
 # Bringing it all Together
 
-name = input("Enter your name: ")
-​
+name = input("Enter your name: ")​
 weight = int(input ("Enter your weight in pounds: "))
-​
 height = int(input ("Enter your height in inches: "))
-​
 BMI = (weight * 703) / (height * height)
-​
 print(BMI)
 ​
 if BMI >0:
@@ -95,8 +85,6 @@ if BMI >0:
 Enter your name: Angie
 Enter your weight in pounds: 170
 Enter your height in inches: 62
-___________________________________________________
----------------------------------------------------
-31.090010405827265
 
+31.090010405827265
 Angie, you are obese.
