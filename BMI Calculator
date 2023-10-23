@@ -1,0 +1,102 @@
+# BMI Calculator
+# Input of Values & BMI Calculation
+
+weight = input ()
+170
+
+print (weight)
+170
+
+weight =input("Enter your weight in pounds ")
+Enter your weight in pounds 170
+
+weight
+print(weight)
+170
+___________________________________________________
+
+name = input("Enter your name: ")
+​
+weight = int(input ("Enter your weight in pounds: "))
+​
+height = int(input ("Enter your height in inches: "))
+​
+BMI = (weight * 703) / (height * height)
+​
+print(BMI)
+______________________________________________________
+
+Enter your name: Angie
+Enter your weight in pounds: 170
+Enter your height in inches: 62
+31.090010405827265
+_____________________________________________________
+
+# Chart for propper evaluation
+
+# under 18.5 -> underweight - minimal
+# 18.5 - 24.9 -> normal weight - minimal
+# 25 - 29.9 -> overweight - increased
+# 30 - 34.9 -> obese - high
+# 35 - 39.9 -> severly obese - very high
+# 40 and over -> morbidly obese - extremly high
+_____________________________________________________
+
+# Final Assessment Based On Chart
+
+if BMI >0:
+    if(BMI < 18.5):
+        print(name + ", you are underweight.")
+    elif(BMI <= 24.9):
+        print(name + ", you are normal weight.")
+    elif(BMI <=29.9):
+        print(name + ", you are overweight.")
+    elif(BMI <= 34.9):
+        print(name + ", you are obese.")
+    elif(BMI <=39.9):
+        print(name + ", you are severly obese.")
+    elif(BMI>=40):
+        print(name + ", you are morbidly obese.")
+    else:
+        print("Enter valid inputs")
+
+
+Angie, you are obese.
+____________________________________________________
+
+# Bringing it all Together
+
+name = input("Enter your name: ")
+​
+weight = int(input ("Enter your weight in pounds: "))
+​
+height = int(input ("Enter your height in inches: "))
+​
+BMI = (weight * 703) / (height * height)
+​
+print(BMI)
+​
+if BMI >0:
+    if(BMI < 18.5):
+        print(name + ", you are underweight.")
+    elif(BMI <= 24.9):
+        print(name + ", you are normal weight.")
+    elif(BMI <=29.9):
+        print(name + ", you are overweight.")
+    elif(BMI <= 34.9):
+        print(name + ", you are obese.")
+    elif(BMI <=39.9):
+        print(name + ", you are severly obese.")
+    elif(BMI>=40):
+        print(name + ", you are morbidly obese.")
+    else:
+        print("Enter valid inputs")
+
+Enter your name: Angie
+Enter your weight in pounds: 170
+Enter your height in inches: 62
+___________________________________________________
+---------------------------------------------------
+31.090010405827265
+
+Angie, you are obese.
